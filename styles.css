@@ -1,0 +1,44 @@
+body {
+    margin : 0;
+    padding : 0;
+    width: 100px;
+    max-width: 100%;
+    background-color: bisque;
+    color: black;
+}
+div {
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+
+
+}
+header {
+text-align: center;
+}
+article {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+
+
+
+}
+@media screen and (max-width: 600px) {
+    body {
+        background-color: burlywood;
+        width:auto;
+        
+
+
+
+
+
+    
+}
+div {
+    display: grid;
+    grid-template: 1fr 1fr 1fr;
+    
+}
+    
+
+}
